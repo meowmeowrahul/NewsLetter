@@ -1,6 +1,6 @@
 # 📬 Newsletter Signup Component
 
-This is my solution to the [Newsletter sign-up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-5PNrBV5YLu). It’s a responsive, interactive newsletter form built using **React**, styled with **Tailwind CSS**, and powered by **Vite** for a fast and modern development experience.
+This is my solution to the [Newsletter sign-up form challenge on Frontend Mentor](https://www.frontendmentor.io/learning-paths/javascript-fundamentals-oR7g6-mTZ-/steps/6867f3ff18424bc8eeaff090/challenge/start). It’s a responsive, interactive newsletter form built using **React**, styled with **Tailwind CSS**, and powered by **Vite** for a fast and modern development experience.
 
 ---
 
