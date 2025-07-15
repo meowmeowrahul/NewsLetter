@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@theme {
+  --color-gradient: linear-gradient(
+    90deg,
+    rgb(253, 62, 94),
+    var(--color-red-400)
+  );
+  --color-dBlue: hsl(234, 29%, 20%);
+  --color-mBlue: hsl(235, 18%, 26%);
+  --color-greyHere: hsl(0, 0%, 58%);
+}
+.hover-gradient:hover {
+  background-image: var(--color-gradient);
+}
+@media (min-width: 726px) {
+  li img {
+    height: 20px;
+    width: 20px;
+  }
+  li p {
+    color: hsl(234, 29%, 20%);
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 767px) {
+  li img {
+    height: 25px;
+    width: 25px;
+  }
+  li p {
+    color: hsl(234, 29%, 20%);
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
