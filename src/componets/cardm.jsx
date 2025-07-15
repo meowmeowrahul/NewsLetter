@@ -1,12 +1,16 @@
 import { useState } from "react";
 import "./cardm.css";
+import iconSuccess from "../assets/images/icon-success.svg";
+import bgMobile from "../assets/images/illustration-sign-up-mobile.svg";
+import bgDesktop from "../assets/images/illustration-sign-up-desktop.svg";
+import iconList from "../assets/images/icon-list.svg";
 const Succesfull = ({ userEmail, onDismiss }) => {
   return (
     <div className="bg-white md:bg-mBlue  min-h-lvh  flex justify-center items-center">
       <div className=" md:p-10 md:max-w-[28rem]  md:bg-white rounded-4xl">
         <div className="flex flex-col h-[70%] justify-center">
           <img
-            src="/images/icon-success.svg"
+            src={iconSuccess}
             className="h-[72px] w-[72px] mb-9 md:h-[60px] md:w-[60px]"
           ></img>
           <h1 className="text-dBlue font-extrabold text-4xl mb-5 md:text-[2.5rem]">
@@ -99,15 +103,9 @@ const Cardm = () => {
     return (
       <form className="rounded-4xl bg-white  max-w-sm md:max-w-[46rem] md:max-h-[30rem]">
         <div className="flex flex-col md:flex-row-reverse bg-white rounded-4xl max-h-lvh md:max-h-[30rem]">
-          <img
-            src="/images/illustration-sign-up-mobile.svg"
-            className="w-full md:hidden"
-          ></img>
+          <img src={bgMobile} className="w-full md:hidden"></img>
           <div className="flex justify-end">
-            <img
-              src="/images/illustration-sign-up-desktop.svg"
-              className="w-full hidden md:block p-5"
-            ></img>
+            <img src={bgDesktop} className="w-full hidden md:block p-5"></img>
           </div>
 
           <div className=" mt-3 flex flex-col h-[842px] md:max-h-[30rem] ml-2 pr-1 md:mt-13 md:ml-6 ">
@@ -119,9 +117,9 @@ const Cardm = () => {
             </h2>
             <ul className="flex  ml-1">
               <li className="flex flex-col justify-evenly md:mr-3">
-                <img src="/images/icon-list.svg" className="mb-1"></img>
-                <img src="/images/icon-list.svg" className="mb-1"></img>
-                <img src="/images/icon-list.svg" className=""></img>
+                <img src={iconList} className="mb-1"></img>
+                <img src={iconList} className="mb-1"></img>
+                <img src={iconList} className=""></img>
               </li>
 
               <li className="flex flex-col  pt-2 justify-evenly ">
